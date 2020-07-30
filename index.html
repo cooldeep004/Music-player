@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>player</title>
+    <script src="https://kit.fontawesome.com/41c8fb69c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+
+    <div id="header1">
+        <nav>
+            <div id="list1">
+                <div id="list1-icon">
+                    <img src="icon.jpg">
+                </div>
+                <div id="list1-text">
+                    <span>music <br> @player</span>
+                </div>
+            </div>
+            <div id="list2">
+                <span> Favourites
+                </span>
+            </div>
+            <div id="search-bar">
+                <a href="#" id="icon">
+                    <i class="fas fa-search"></i>
+                </a>
+                <input type="text" id="searching" placeholder="search....">
+                <a href="#" id="microphone">
+                    <i class="fas fa-microphone"></i>
+                </a>
+
+            </div>
+            <div id="bell">
+                <a href="#" id="bell-icon">
+                    <i class="fas fa-bell"></i>
+                </a>
+
+            </div>
+            <div id="profile">
+                <img src="profile.jpg">
+            </div>
+        </nav>
+    </div>
+
+
+    <div id="header2">
+        <div id="list1">
+            <div id="list1-icon">
+                <img src="icon.jpg">
+            </div>
+            <div id="list1-text">
+                <span>music <br> @player</span>
+            </div>
+        </div>
+        <div id="search-bar">
+            <a href="#" id="icon">
+                <i class="fas fa-search"></i>
+            </a>
+            <input type="text" id="searching" placeholder="search....">
+            <a href="#" id="microphone">
+                <i class="fas fa-microphone"></i>
+            </a>
+
+        </div>
+
+        <div class="dropdown">
+            <button>
+                <i class="fas fa-bars"></i>
+            </button>
+            </br>
+            <div id="list">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="index.html">Favourites</a></div>
+                <div><a href="index.html">queue</a></div>
+                <div><a href="index.html">playlist</a></div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <main>
+        <div id="main-container">
+            <div id="full-screen">
+
+                <div id="img">
+                    <img src="front1.jpg">
+                </div>
+            
+              </div>
+            <!--  latest release -->
+
+            <p id="lr">Latest Release....</p>
+            <div id="latestrelease">
+                <div id="latest1" class="playsong" value="manjha.mp3" value1="manjha">
+                    <img src="manjha.jpg">
+                    <div id="write-div">
+                        <p> Manjha<br>
+                            Jan 04 2020</p>
+                    </div>
+                    <div id="dot-dot">
+                        <i class="fas fa-ellipsis-h"></i><br>
+                        <span>4:45</span>
+                    </div>
+                </div>
+
+                <div id="latest1" class="playsong" value="malang.mp3" value1="malang track">
+                    <img src="malang.jpg">
+                    <div id="write-div">
+                        <p> Malang<br>
+                            Jan 04 2020</p>
+                    </div>
+                    <div id="dot-dot">
+                        <i class="fas fa-ellipsis-h"></i><br>
+                        <span>4:45</span>
+                    </div>
+                </div>
+
+                <div id="latest1" class="playsong" value="dont.mp3" value1="Friends">
+                    <img src="dont.jpg">
+                    <div id="write-div">
+                        <p>don't let me down<br>
+                            Jan 04 2020</p>
+                    </div>
+                    <div id="dot-dot">
+                        <i class="fas fa-ellipsis-h"></i><br>
+                        <span>4:45</span>
+                    </div>
+                </div>
+
+                <div id="latest1" class="playsong" value="shayad.mp3" value1="shayad love aaj kl">
+                    <img src="sayad.jpg">
+                    <div id="write-div">
+                        <p> shayad<br>
+                            Jan 04 2020</p>
+                    </div>
+                    <div id="dot-dot">
+                        <i class="fas fa-ellipsis-h"></i><br>
+                        <span>4:45</span>
+                    </div>
+                </div>
+
+                <div id="latest1">
+                    <img src="cheap.png" class="playsong" value="cheap.mp3" value1="cheap thrill">
+                    <div id="write-div">
+                        <p> cheap thrill<br>
+                            Jan 04 2020</p>
+                    </div>
+                    <div id="dot-dot">
+                        <i class="fas fa-ellipsis-h"></i><br>
+                        <span>4:45</span>
+                    </div>
+                </div>
+
+                <div id="latest1">
+                    <img src="friends.jpg" class="playsong" value="friends.mp3" value1="Friends">
+                    <div id="write-div">
+                        <p> friends<br>
+                            Jan 04 2020</p>
+                    </div>
+                    <div id="dot-dot">
+                        <i class="fas fa-ellipsis-h"></i><br>
+                        <span>4:45</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <p id="pa">English songs.......</p>
+
+            <div id="popular" >
+                <div id="popart" class="playsong" value="friends.mp3" value1="Friends" >
+                    <img src="friends.jpg">
+                    <div id="ptext">Friends</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div  id="popart" class="playsong" value="Something Just Like This.mp3" value1="Something Just Like This">
+                    <img src="something.jpg">
+                    <div id="ptext">Something Just Like This.mp3</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div id="popart" class="playsong" value="letme.mp3" value1="don't let me down" >
+                    <img src="dont.jpg">
+                    <div id="ptext">don't let me down</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div id="popart" class="playsong" value="closer.mp3" value1="closer">
+                    <img src="closer.jpg">
+                    <div id="ptext">closer</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div id="popart" class="playsong" value="cheap.mp3" value1="cheap thrill" >
+                    <img src="cheap.png">
+                    <div id="ptext">cheap thrill</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <p id="pa">hindi songs.......</p>
+
+            <div id="popular">
+                <div id="popart" class="playsong" value="shayad.mp3" value1="shayad">
+                    <img src="sayad.jpg">
+                    <div id="ptext">Shayad</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div id="popart" class="playsong" value="manjha.mp3" value1="manjha">
+                    <img src="manjha.jpg">
+                    <div id="ptext">Manjha</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div id="popart" class="playsong" value="aaaaj.mp3" value1="aaj bhi">
+                    <img src="aaaaj.jpg">
+                    <div id="ptext">Aaj bhi</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div id="popart" class="playsong" value="malang.mp3" value1="malang title track">
+                    <img src="malang.jpg">
+                    <div id="ptext">Malang</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div id="popart" class="playsong" value="malang.mp3" value="chal ghar chale">
+                    <img src="chall.jpg">
+                    <div id="ptext">Malang</div>
+                    <div id="pop-logo">
+                        <i class="fas fa-play"></i>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+    </main>
+    <aside>
+        <div id="aside-container">
+
+            <div id="aside-content">
+                <p ID="Qheading">QUEUE</p>
+                <div id="content" class="playsong" value="friends.mp3" value1="friends">
+                    <div id="sr"> 01</div>
+                    <img src="friends.jpg">
+                    <div id="ctext">Friends <br> Marshmello </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="malang.mp3" value1="malang title track">
+                    <div id="sr"> 02</div>
+                    <img src="malang.jpg">
+                    <div id="ctext">Malang title track <br> ved sharma </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="aal bhi.mp3" value1="aaj bhi">
+                    <div id="sr"> 03</div>
+                    <img src="aaaaj.jpg">
+                    <div id="ctext">Aaj bhi <br> vishal </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="chal ghar chale.mp3" value="chal ghar chale">
+                    <div id="sr"> 04</div>
+                    <img src="chall.jpg">
+                    <div id="ctext">Chal ghar chale <br> Arjit singh </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="closer.mp3" value1="closer">
+                    <div id="sr"> 05</div>
+                    <img src="closer.jpg">
+                    <div id="ctext">scloser <br> chainsmoker </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="Something Just Like This.mp3" value1="Something Just Like This.mp3">
+                    <div id="sr"> 06</div>
+                    <img src="something.jpg">
+                    <div id="ctext">Something Just Like This <br> coldplay </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="shayad.mp3" value1="shayad">
+                    <div id="sr"> 07</div>
+                    <img src="sayad.jpg">
+                    <div id="ctext">Shayad <br> Arjit singh </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="havana.mp3" value1="havana">
+                    <div id="sr"> 08</div>
+                    <img src="havana.jpg">
+                    <div id="ctext">havana <br> unknownt </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="dusk.mp3" value1="dusk till down">
+                    <div id="sr"> 09</div>
+                    <img src="dusk.jpg">
+                    <div id="ctext">dusk till dawn<br> artist </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <div id="content" class="playsong" value="dont.mp3" value1="don't let me down"> 
+                    <div id="sr"> 10</div>
+                    <img src="dont.jpg">
+                    <div id="ctext">don't let me down <br> coldplay </div>
+                    <div id="heart">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </aside>
+    <footer>
+        <div id="playcontent">
+            <div id="image">
+                <img src="musicicon.jpg">
+            </div>
+            <div id="detail">
+
+                Something Just Like This</br> coldplay
+
+            </div>
+            <div id="footer-icon">
+
+                <i class="fas fa-ban" id="ban"></i>
+                <i class="far fa-heart"></i>
+            </div>
+        </div>
+        <div id="ld">
+            <div id="playview">
+                <audio id="songplay" controls>
+                    <source src="Something Just Like This.mp3" type="audio/mp3">
+
+                    <source src="images/playdate.ogg" type="audio/ogg">
+
+                    This Browser does not suppot this Audio file type
+
+                </audio>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="music.js"></script>
+</body>
+
+</html>
